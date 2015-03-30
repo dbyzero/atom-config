@@ -1,0 +1,29 @@
+"*":
+  "exception-reporting":
+    userId: "0355b095-9ef0-1bb4-4b12-355be3c1b19b"
+  welcome:
+    showOnStartup: false
+  editor:
+    fontSize: 13
+    invisibles: {}
+    tabLength: 4
+    showInvisibles: true
+    showIndentGuide: true
+    useShadowDOM: false
+  core:
+    autoHideMenuBar: true
+    projectHome: "/home/cyril/vm-cyril/app/svn/fr.iwd/"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "home-fix"
+      "open-plus"
+    ]
+    ignoredNames: [
+      ".svn"
+      "app-prod.js"
+      "app.js"
+    ]
+  linter: {}

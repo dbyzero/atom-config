@@ -1,0 +1,78 @@
+{
+  "name": "open-plus",
+  "main": "./lib/open-plus",
+  "version": "0.3.2",
+  "description": "Open filenames under cursor with ctrl-o",
+  "activationEvents": [
+    "open-plus:open"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klorenz/atom-open-plus"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Kay-Uwe",
+    "email": "kay@moduleworks.com",
+    "url": "Kiwi"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "isbinaryfile": "^2.0.1",
+    "opener": "^1.4.0"
+  },
+  "readme": "open-plus package\n=================\n\nUse ctrl-o to open file specified by filename under cursor.\n\nOpen plus opens filenames under cursors or from selections.  Non-absolute\nfilenames are interpreted relative to filename of current buffer.\n\nBinary files and URLs are opened by external application defined by your OS.\n\nIf word under cursor has no extension, and resolved file does not exist,\nextension from current file is added to filename.\n\n\nXikij Support\n-------------\n\nThere is special support for [xikij](http://github.com/klorenz/atom-xikij)\npackage.  If you are on a path like\n\n```\n    /etc\n       + fstab\n```\n\nYou can hit ctrl+o and file opens in atom or external if binary.\n\n\nUse Cases\n---------\n\n- open or create files from toctree directive in Sphinx Documentation\n- open file in `doc` role of Sphinx Documentation\n- open file specified in require or include statements (if relative to current)\n- if opened a build output, quickly jump to files in errors\n- jump to files from stacktraces\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/klorenz/atom-open-plus/issues"
+  },
+  "homepage": "https://github.com/klorenz/atom-open-plus",
+  "_id": "open-plus@0.3.2",
+  "_shasum": "9269b8108f0fb44ebc9b19f5571081bff9a0d7ac",
+  "_resolved": "file:../d-115230-26581-15rk5w/package.tgz",
+  "_from": "../d-115230-26581-15rk5w/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "isbinaryfile",
+        "version": "2.0.3",
+        "path": "node_modules/isbinaryfile/index.js"
+      },
+      {
+        "name": "opener",
+        "version": "1.4.1",
+        "path": "node_modules/opener/opener.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/open-plus.coffee"
+      ],
+      ".js": [
+        "node_modules/isbinaryfile/index.js",
+        "node_modules/opener/opener.js"
+      ],
+      ".json": [
+        "node_modules/isbinaryfile/package.json",
+        "node_modules/opener/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "isbinaryfile": "^2.0.1",
+          "opener": "^1.4.0"
+        }
+      }
+    ]
+  }
+}

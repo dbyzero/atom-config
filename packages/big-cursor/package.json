@@ -1,0 +1,41 @@
+{
+  "name": "big-cursor",
+  "main": "./lib/big-cursor",
+  "version": "0.1.0",
+  "description": "Simple toggle to add a vertical guideline",
+  "activationEvents": [
+    "big-cursor:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chick-chains/atom-big-cursor"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# big-cursor package\n\nSimple toggle to add a vertical guideline to the cursor to help\nwith indentation based markup like (Slim or haml).\nActivate with `alt-l`\n\n## Preview:\n![Preview](http://i.imgur.com/UFdTCrX.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/chick-chains/atom-big-cursor/issues"
+  },
+  "homepage": "https://github.com/chick-chains/atom-big-cursor",
+  "_id": "big-cursor@0.1.0",
+  "_shasum": "a4d25b46cdbe3afb885a6e91f705f075718f1208",
+  "_resolved": "file:../d-115230-26550-2d80mr/package.tgz",
+  "_from": "../d-115230-26550-2d80mr/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/big-cursor.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
